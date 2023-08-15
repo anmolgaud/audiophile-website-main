@@ -14,8 +14,8 @@ const Cart = () => {
   }, [cartItems, calcAmount,])
 
   return (
-    <section className="bg-gray-900 min-h-[90vh] flex flex-col justify-center items-center ">
-      <div className="m-6 w-[90%] md:w-[60%] lg:w-[40%] border-2 bg-neutral-100 border-white rounded-lg 
+    <section className="bg-[#1B2430] min-h-[90vh] flex flex-col justify-center items-center ">
+      <div className="m-6 w-[90%] md:w-[60%] lg:w-[40%] border-2 bg-neutral-200 border-white rounded-lg 
         flex flex-col justify-center items-center">
 
         {/* cart header */}

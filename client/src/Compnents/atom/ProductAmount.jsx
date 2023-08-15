@@ -12,9 +12,9 @@ const ProductAmount = (props) => {
   }
   return (
     <div className='flex justify-center gap-2 p-1 rounded-md items-center border-2 border-gray-700'>
-        <FiChevronDown size={"1.2rem"} onClick={dec} />
+        <FiChevronDown onClick={dec} size={"1.2rem"}/>
         <div>{amount}</div>
-        <FiChevronUp size={"1.2rem"} onClick={inc} />
+        <FiChevronUp onClick={inc} size={"1.2rem"}/>
     </div>
   )
 }

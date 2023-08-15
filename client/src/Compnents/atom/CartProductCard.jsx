@@ -10,12 +10,12 @@ const CartProductCard = (props) => {
     const dispatch = useDispatch();
 
   return (
-    <div className=' w-[80%] flex justify-between items-center bg-white py-2 rounded-lg'>
-        <div className='col-end-2 mx-4 w-[20%] place-self-start bg-gray-300 rounded-md'>
+    <div className='mx-2 md:mx-0 md:w-[80%] flex justify-between items-center bg-white py-2 rounded-lg'>
+        <div className='col-end-2 mx-2 md:mx-4 w-[30%] md:w-[20%] lg:w-[30%] place-self-center bg-gray-300 rounded-md'>
             <img src={`https://audiophilebackend.onrender.com/${previewImgPath}`} />
         </div>
 
-        <div className='w-full mx-4'>
+        <div className='w-full mr-2 md:mx-4'>
             <div className='w-full flex justify-between '>
                 <p>{name}</p>
                 <p>${price}</p>
